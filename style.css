@@ -10,3 +10,6 @@
 .navbar .nav-link:hover {
     color: #ffffff; /* Set text color of navbar links on hover */
 }
+.rounded-circle {
+    border-radius: 50%; /* Set border radius to 50% to create a circle */
+}
