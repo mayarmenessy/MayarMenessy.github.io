@@ -1,15 +1,104 @@
-/* styles.css */
+
+*{
+    text-decoration: none;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    outline: none;
+    scroll-behavior: smooth;
+}
 .navbar {
-    background-color: #343a40; /* Set background color of navbar */
+    background-color: #ffffff; 
 }
 
-.navbar .nav-link {
-    color: #ffffff; /* Set text color of navbar links */
+.nav-link .nav-item{
+    color: rgb(0, 0, 0);
+    font-size: 1rem;
+    font-weight: 700;
+    cursor: pointer;
+    text-decoration: none;
 }
 
-.navbar .nav-link:hover {
-    color: #ffffff; /* Set text color of navbar links on hover */
+.nav-link:hover {
+    
+    background-color: rgb(214, 149, 29);
+    color: white;
 }
-.rounded-circle {
-    border-radius: 50%; /* Set border radius to 50% to create a circle */
+
+.home-image img{
+    width: 34vw;
+    animation: floatImage 5s ease-in-out infinite;
+    
+}
+@keyframes floatImage{
+    0%{
+        transform: translateY(0);
+    }
+    20%{
+        transform: translateY(-2rem);
+    }
+    80%{
+        transform: translateY(0);
+    }
+}
+.social-media a{
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    width: 3rem;
+    height: 3rem;
+    background: transparent;
+    border: .2rem solid;
+    border-radius: 50%;
+    font-size: 1.5rem;
+    color:  rgb(214, 149, 29);
+    margin: 1rem 1rem 1rem 0;
+    transition: .5s ease;
+}
+.social-media a:hover{
+    background:#b67f19 ;
+    color: #ffffff;
+    box-shadow: #b67f19;
+}
+.main{
+
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+}
+.main .h3{
+    font-size: 4.4rem;
+    font-weight: 700;
+}
+.main .bt1{
+    height: 55px;
+    width: 138px;
+    background-color: #d6951d;
+    color: white;
+    font-weight: lighter;
+    border-radius: 5px;
+    outline: none;
+    border: none;
+}
+.main .bt1:hover{
+    background-color: #b67f19;
+}
+.about {
+    background-color: #b67f19; /* Set background color to white */
+    padding: 50px; /* Add padding for spacing */
+    border-radius: 15px; /* Add rounded corners */
+    box-shadow: 2 4px 8px rgba(163, 144, 144, 0.1); /* Add box shadow for depth */
+}
+
+.about h2 {
+    color: #696561; /* Set text color to a dark color */
+    font-size: 2rem; /* Keep font size */
+    margin-bottom: 20px; /* Keep margin bottom */
+}
+
+.about p {
+    color: #534c4c; /* Set text color to a slightly darker color */
+    font-size: 1rem; /* Keep font size */
+    line-height: 1.6; /* Keep line height */
+    margin-bottom: 15px; /* Keep margin bottom */
 }
