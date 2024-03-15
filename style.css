@@ -71,6 +71,7 @@
     font-weight: 700;
 }
 .main .bt1{
+    
     height: 55px;
     width: 138px;
     background-color: #d6951d;
@@ -83,22 +84,7 @@
 .main .bt1:hover{
     background-color: #b67f19;
 }
-.about {
-    background-color: #b67f19; /* Set background color to white */
-    padding: 50px; /* Add padding for spacing */
-    border-radius: 15px; /* Add rounded corners */
-    box-shadow: 2 4px 8px rgba(163, 144, 144, 0.1); /* Add box shadow for depth */
-}
 
-.about h2 {
-    color: #696561; /* Set text color to a dark color */
-    font-size: 2rem; /* Keep font size */
-    margin-bottom: 20px; /* Keep margin bottom */
-}
-
-.about p {
-    color: #534c4c; /* Set text color to a slightly darker color */
-    font-size: 1rem; /* Keep font size */
-    line-height: 1.6; /* Keep line height */
-    margin-bottom: 15px; /* Keep margin bottom */
+.card-body h3{
+    color: #d6951d;
 }
