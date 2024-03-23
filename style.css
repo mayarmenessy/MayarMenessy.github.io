@@ -129,15 +129,13 @@
 }
 
 
-.text {
-  color: #b67f19;
-  font-size: 15px;
-  padding: 8px 12px;
-  position: absolute;
-  bottom: 8px;
-  width: 100%;
-  text-align: center;
+.text h3 {
+  color: #ffffff; 
+  background-color: rgba(0, 0, 0, 0.5); 
+  padding: 10px; 
+  border-radius: 5px; 
 }
+
 
 
 .numbertext {
@@ -184,11 +182,5 @@
 footer{
   background-color: #d6951d;
   color: #ffffff;
-}
-.text h3 {
-  color: #ffffff; 
-  background-color: rgba(0, 0, 0, 0.5); 
-  padding: 10px; 
-  border-radius: 5px; 
 }
 
