@@ -185,4 +185,10 @@ footer{
   background-color: #d6951d;
   color: #ffffff;
 }
+.text h3 {
+  color: #ffffff; 
+  background-color: rgba(0, 0, 0, 0.5); 
+  padding: 10px; 
+  border-radius: 5px; 
+}
 
